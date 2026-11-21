@@ -83,10 +83,18 @@
 - Red Hat Certified Architect (RHCA) and Red Hat Certified Engineer (RHCE) (2013)
 - AI For You: Introduction to AI and the EU AI Act, CeADAR (2026)
 
-### 🔭 Coming soon to this GitHub
+### 🚀 Featured project
+
+**[gitops-eks-reference](https://github.com/pratheek888/gitops-eks-reference)**: GitOps continuous delivery to Amazon EKS.
+Argo CD app-of-apps and ApplicationSet across dev/preprod/prod, a Helm umbrella chart built on one generic service chart,
+Argo Rollouts **canary (NGINX/ALB)** and **blue-green** releases with Prometheus analysis and auto-rollback, and Terraform for VPC, EKS and Argo CD.
+CI covers gitleaks, kubeconform, `terraform validate` and Trivy.
+
+[![ci](https://github.com/pratheek888/gitops-eks-reference/actions/workflows/ci.yaml/badge.svg)](https://github.com/pratheek888/gitops-eks-reference/actions/workflows/ci.yaml)
+
+### 🔭 Coming soon
 
 - 🤖 `mcp-devops-agents`: a reference multi-agent setup for Kubernetes and CI/CD operations over MCP
-- 🚀 `gitops-eks-reference`: Argo CD and Helm umbrella charts with canary and blue-green rollout to EKS
 - 🔐 `devsecops-pipeline-template`: a Jenkins pipeline with SAST, secret scanning and Vault integration
 
 ---

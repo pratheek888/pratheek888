@@ -100,9 +100,12 @@ CI covers gitleaks, kubeconform, `terraform validate` and Trivy.
 
 [![ci](https://github.com/pratheek888/gitops-eks-reference/actions/workflows/ci.yaml/badge.svg)](https://github.com/pratheek888/gitops-eks-reference/actions/workflows/ci.yaml)
 
-### 🔭 Coming soon
+**[devsecops-pipeline-template](https://github.com/pratheek888/devsecops-pipeline-template)**: a Jenkins shared library that gives every service
+the same secure pipeline in three lines. Gitleaks, SonarQube, Trivy (SCA, IaC, image), a CycloneDX SBOM, a **policy-as-code security gate**
+with per-environment thresholds and expiring exceptions, Cosign signing with the key held in **Vault Transit**, and GitOps promotion.
+Unit-tested with JenkinsPipelineUnit. The same gate also runs on GitHub Actions, and it caught a real CRITICAL in a base image on its first run.
 
-- 🔐 `devsecops-pipeline-template`: a Jenkins pipeline with SAST, secret scanning and Vault integration
+[![ci](https://github.com/pratheek888/devsecops-pipeline-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/pratheek888/devsecops-pipeline-template/actions/workflows/ci.yaml)
 
 ---
 

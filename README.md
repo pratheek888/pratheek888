@@ -83,7 +83,15 @@
 - Red Hat Certified Architect (RHCA) and Red Hat Certified Engineer (RHCE) (2013)
 - AI For You: Introduction to AI and the EU AI Act, CeADAR (2026)
 
-### 🚀 Featured project
+### 🚀 Featured projects
+
+**[mcp-devops-agents](https://github.com/pratheek888/mcp-devops-agents)**: multi-agent AIOps over the Model Context Protocol.
+A master agent (incident commander) delegates in parallel to Kubernetes, CI/CD and observability agents built on Claude,
+each reaching its systems only through MCP servers. Read-only by default, human approval for every write,
+token/tool budgets with per-agent cost tracking, and a redacted audit log. Includes a mock prod incident you can run without a cluster.
+
+[![ci](https://github.com/pratheek888/mcp-devops-agents/actions/workflows/ci.yaml/badge.svg)](https://github.com/pratheek888/mcp-devops-agents/actions/workflows/ci.yaml)
+
 
 **[gitops-eks-reference](https://github.com/pratheek888/gitops-eks-reference)**: GitOps continuous delivery to Amazon EKS.
 Argo CD app-of-apps and ApplicationSet across dev/preprod/prod, a Helm umbrella chart built on one generic service chart,
@@ -94,7 +102,6 @@ CI covers gitleaks, kubeconform, `terraform validate` and Trivy.
 
 ### 🔭 Coming soon
 
-- 🤖 `mcp-devops-agents`: a reference multi-agent setup for Kubernetes and CI/CD operations over MCP
 - 🔐 `devsecops-pipeline-template`: a Jenkins pipeline with SAST, secret scanning and Vault integration
 
 ---
